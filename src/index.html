@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadil's Web</title>
+    <link href="css/global.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100">
+    <div class="flex flex-col justify-between">
+        <header class="flex justify-between items-center p-4">
+            <div class="brand">Fadil.a</div>
+            <nav class="flex gap-4 bg-white px-6 py-2 rounded-full">
+                <div>Home</div>
+                <div>About</div>
+                <div>Media</div>
+        </nav>
+        <a href="mailto:dildilpa00@gmail.com" class="bg-white px-4 py-2 rounded-full">Contact</a>
+        </header>
+
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-4xl m-auto "> 
+            <div class="card bg-white col-span-2 flex flex-col justify-between">
+                <div class="flex gap-2 items-center">
+                    <h2>Hi - I'm Fadil</h2>
+                    <div class="flex scale-75 items-center gap-2 text-sm font-medium bg-emerald-100 border-emerald-400 text-emerald-700 rounded-full px-2 py-1 w-fit border">
+                        <div>Available for opportunity</div>
+                        <div class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></div>
+                    </div>
+                </div>
+                <p>Let me introduce myself in 7 words. Responsible, creative, open-minded, friendly and ambitious web developer. This is how I see myself, and hope you will give me a chance to prove my words in the job.</p>
+            </div>
+           <a href="https://twitter.com" target="_blank">
+            <div class="card bg-black flex items-center justify-center">
+                <img src="/twitter.jpg" width="200px" height="200px" class=" hover:scale-125 transition duration-300">
+            </div>
+           </a>
+            <a href="https://discord.com" target="_blank">
+                <div class="card bg-indigo-500 flex items-center justify-center">
+                    <img src="/discord.png" width="150px" height="150px" class="hover:scale-125 transition duration-300">
+                </div>
+            </a>
+            
+            <div class="card bg-white col-span-2 space-y-2">
+            <h2>Shall i keep you in the loop?</h2>
+            <p>Content includes articles. easily access to products and ongoing learnings</p>
+            <input type="email" placeholder="Email address"/>
+            <button id="confettiBtn">Subscribe</button>
+            </div>
+        </main>
+    </div>
+    <footer class="text-center p-20">Created by Fadil Agustiansyah</footer>
+    </main>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

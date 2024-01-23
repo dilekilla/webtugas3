@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
+
+@layer base {
+    body {
+        @apply font-sans;
+    }
+    h1 {
+        @apply text-4xl;
+    }
+    h2 {
+        @apply text-3xl font-display;
+    }
+    h3 {
+        @apply text-xl;
+    }
+    input {
+        @apply w-full border-b py-4 focus:outline-none;
+    }
+    button {
+        @apply border rounded-full px-4 py-2;
+    }
+}
+
+@layer components {
+    .brand {
+        @apply text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+
+    }
+    .card {
+        @apply rounded-2xl p-8 h-[300px];
+    }
+   
+}
